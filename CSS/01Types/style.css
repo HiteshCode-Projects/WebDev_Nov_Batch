@@ -1,0 +1,17 @@
+  h2{
+        background-color: red;
+        text-align: center;
+        font-family: cursive;
+       }  
+
+       button{
+        background-color: orange;
+        color: white;
+       }
+
+       p{
+           color: red;
+           font-family: fantasy;
+           text-align: center;
+
+       }
