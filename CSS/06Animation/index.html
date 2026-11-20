@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: changeColor;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+/* 
+        @keyframes - Help us To add Animation */
+
+        /* @keyframes changeColor{
+
+            from {background-color: red;}
+
+            to  {background-color: blue;}
+
+        } */
+
+          /* @keyframes changeColor{
+
+           0% {background-color: red;}
+       
+           25% {background-color: yellow;}
+  
+           50% {background-color: blue;}
+
+           75% {background-color: aqua;}
+
+           100% {background-color: peru;}
+
+        } */
+
+           @keyframes changeColor{
+
+           0% {background-color: red;  transform: translateX(0);}
+       
+  
+           50% {background-color: blue; transform: translateY(200px);}
+
+          
+
+           100% {background-color: peru; transform: translateX(0);}
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+
+
+    <strong>Animation Effecr Will Goes Back To Orignal Form After Completing</strong>
+</body>
+</html>
