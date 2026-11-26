@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+       // if(condition)    - It will Give the output Only WHen COndition is True
+
+    //    let age  = 21
+
+    //    if( age>=18 ){  //21 >=18
+    //     //Body 
+    //     console.log("You are an Adult")
+    //     alert("You are ELegible")
+    //                    //Pop up
+    //    }
+
+
+    // let LoginStatus = true
+
+    // if(LoginStatus){
+    //     alert("Welcoem Back User")
+    // }
+
+
+    // if()- True  else- False
+
+    let age = 12
+
+    if(age>=18){
+        console.log("You are an Adult")
+    }else{
+        console.log("YOu are a Minor")
+    }
+
+
+    //Multiple Condition - else if
+
+    let rating = 3
+
+    if(rating === 5){
+        alert("Excellent")
+    }
+    else if(rating === 4){
+        alert("Very Good")
+    }
+    else if(rating === 3){
+        alert("Good")
+    }
+    else{
+        alert("Need Improvement")
+    }
+
+
+
+    //
+    let amount = 299.99
+
+    if(amount >= 500){
+        console.log("Free Delivery")
+    }
+    else if( amount >= 400 ){
+        //amount is 400 and 499 - Rs 30 Delivery
+          console.log("Rs 30 Delivery Charge")
+    }
+     else if( amount >= 300 ){
+        //amount is 300 and 399 - Rs 35 Delivery
+          console.log("Rs 50 Delivery Charge")
+    }
+    else{
+        console.log("Cannot Place Order")
+    }
+
+
+
+    //Switch Statement
+
+    let choice = 3
+
+    switch(choice){
+
+        //case NameofCase
+         case 1: 
+         console.log("Chips")
+         break;
+
+         case 2:
+            console.log("Diet Coke")
+         break;   
+
+         case 3: 
+         console.log("Biscuit") 
+         break;
+         
+         case 4: 
+         console.log("Water")
+         break;
+
+         case 5:
+            console.log("Cake")
+         break;   
+
+         default:
+            console.log("Invalid Choice")   
+
+
+    }
+
+    
+
+
+
+    </script>
+</body>
+</html>
