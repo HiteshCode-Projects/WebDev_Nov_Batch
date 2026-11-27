@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          //Loops : Doing the same TASK again and again  OR Repeat the same task
+
+          //GOLDEN RULE - COndition True - Loop Starts And Condition False - Loop Stops
+
+        //Print Numbers -  1 to 10 console
+        //   console.log(1)
+        //   console.log(2) // consol.log(10)
+
+        //1. for( start point; ending/condition point; operation - ++ (Increase by 1) , -- (Decrease by 1)         ) Loop
+
+        //Rule : When you know the start point and end point use for Loop
+
+        //Print Numbers 1 to 10
+
+        for( let i = 1; i <= 10; i++   ){
+            //Task 
+            console.log("The Nummber of i is" , i)
+
+        }
+
+        //Print Numbers 10 to 1
+        
+        for( let j = 10; j >= 1 ; j--    ){
+            //Task 
+            console.log("The Nummber of j is" , j)
+
+        }
+          
+
+        //While Loop - ENtry Controller Loop
+        // while(condition){
+        //     //Task
+        // }
+
+         //GOLDEN RULE - COndition True - Loop Starts And Condition False - Loop Stops
+
+        let count = 1
+
+        while(count<=5){
+            console.log("Login Attempt")
+            count++
+        }
+
+
+        //Do while Loop : Exit Controlled Loop
+        // It will atleast run/execute the code for one Time 
+
+        let num = 7
+
+        do{
+            console.log("Good Evening")
+        }while(num < 5)
+
+
+        //break
+        let numbers = [1,2,3,4,5,6,7,8]
+        // start point - 0
+        // length - Total no of Data : 8
+        //Last Index / End Point = length - 1  //7
+        
+        for(let k = 0;  k < numbers.length ; k++ ){
+                    //  k <   8 
+
+                    if(numbers[k] === 6){
+                        break
+                    }
+
+                console.log(numbers[k])    
+
+
+        }
+
+
+        //continue - Ignoree and move forward
+         for(let p = 0;  p < numbers.length ; p++ ){
+                    //  k <   8 
+
+                    if(numbers[p] === 4){
+                        continue;
+                    }
+
+                console.log(numbers[p])    
+
+
+        }
+
+
+        let fruits = ["apple","mango ","banana"]
+
+        for(let xyz in fruits ){
+
+           console.log(fruits[xyz])
+         //  console.log(xyz)
+
+        }
+
+
+
+     </script>   
+</body>
+</html>
